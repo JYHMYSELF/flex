@@ -1,0 +1,14 @@
+form {
+    /* width: 500px; */
+    /* height: 200px; */
+    border: 1px solid red;
+    display: flex;
+}
+
+input {
+    flex-grow: 1;
+}
+
+button {
+    flex-grow: 1;
+}

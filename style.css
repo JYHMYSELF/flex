@@ -1,0 +1,50 @@
+body {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #E2E2E2;
+    /* 该属性值会对元素的宽度设置一个最高限制。因此，元素可以比指定值窄，但不能比其宽。不允许指定负值。 */
+    max-width: 1024px;
+    color: #595B66;
+    font-family: 'Microsoft Yahei', sans-serif;
+}
+h2,h3 {
+    color: #797979;
+}
+.box {
+    display: flex;
+    background-color: white;
+	margin: 0 0 55px;
+}
+.box-item {
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	vertical-align: middle;
+	margin: 5px;
+	background-color: #ffd200;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+.box1 {
+    flex-direction: row;
+}
+.box2 {
+    flex-direction: row-reverse;
+}
+.box3 {
+    flex-direction: column;
+}
+.box4 {
+    flex-direction: column-reverse;
+}
+.box5 {
+    /* nowrap 无论项目有多少个，永远在一行。会动态压缩项目的宽度。 */
+    flex-wrap: wrap-reverse;
+}
+.box6 {
+    justify-content: space-around;
+}
+.box7 {
+    align-items: stretch;
+}
